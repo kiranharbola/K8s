@@ -18,3 +18,9 @@ Setup on Windows with WSL2:-
     - role: control-plane
     - role: worker
     - role: worker
+
+NOTE:- If you getting error like Docker desktop is not able to start or its showing restarting only then follow below steps:-
+Delete everything from below folders
+- C:\Users[USER]\AppData\Local\Docker
+- C:\Users[USER]\AppData\Roaming\Docker
+- C:\Users[USER]\AppData\Roaming\Docker Desktop
